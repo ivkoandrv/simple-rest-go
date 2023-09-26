@@ -9,7 +9,7 @@ import (
 func LoadConfig() error {
 	env := os.Getenv("APP_ENV")
 
-	err := godotenv.Load(fmt.Sprintf("%s.env", env))
+	err := godotenv.Load(fmt.Sprintf(".env.%s", env))
 	if err != nil {
 		return err
 	}
