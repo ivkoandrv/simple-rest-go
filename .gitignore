@@ -1,0 +1,13 @@
+output
+.env
+frontend/.env
+.DS_Store?
+go.mod
+go.sum
+.vscode
+migrations/schema.sql
+.idea
+local.env
+test.env
+dev.env
+prod.env
